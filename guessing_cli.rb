@@ -6,7 +6,7 @@ end
 
 def run_guessing_game
 
-  loop do 
+  loop do
 question
 guess = "exit"
 number = rand(1..6)
@@ -22,6 +22,7 @@ number = rand(1..6)
       exit_game
     end
   end
+end
 end
 
 def exit_game
