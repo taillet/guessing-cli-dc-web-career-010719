@@ -13,8 +13,7 @@ number = rand(1..6)
   if guess == "exit"
     exit_game
     break
-  else
-    if guess.to_i == number
+  elsif guess.to_i == number
       puts "You guessed the correct number!"
     elsif guess.to_i != number
       puts "The computer guessed #{number}."
