@@ -7,7 +7,7 @@ def question
 end
 
 def run_guessing_game
-  guess = gets.chomp
+guess = gets.chomp
 
 question
 number = Random.rand(1..6)
@@ -23,7 +23,7 @@ else
   elsif guess == "exit"
     exit_game
   end
-end
+  end
 end
 
 def exit_game
