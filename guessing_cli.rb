@@ -17,11 +17,10 @@ number = rand(1..6)
       puts "You guessed the correct number!"
     elsif guess.to_i != number
       puts "The computer guessed #{number}."
-    else 
+    else
       "Try again."
     end
   end
-end
 end
 
 def exit_game
