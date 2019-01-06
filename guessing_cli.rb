@@ -8,13 +8,16 @@ puts "Guess a number between 1 and 6."
 guess = gets.chomp
 number = Random.rand(1...6)
 
+while guess != exit 
     if guess == number
       puts "You guessed the correct number!"
     elsif
       puts "The computer guessed #{number}."
     elsif guess == "exit"
       puts "Goodbye"
+      break
+    
     end
-
+end
 
 end
