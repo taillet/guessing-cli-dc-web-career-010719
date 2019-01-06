@@ -17,7 +17,7 @@ number = Random.rand(1...6)
     puts "The computer guessed #{number}."
   elsif guess == "exit"
     exit_game
-  elsif (1...6).include?(guess) == false 
+  elsif (1...6).include?(guess) == false
     question
     guess = gets.chomp 
   end
