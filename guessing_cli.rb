@@ -6,7 +6,7 @@ end
 
 def run_guessing_game
 question
-guess = gets.chomp
+guess = "exit"
 number = rand(1..6)
 
   if guess == "exit"
