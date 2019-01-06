@@ -9,10 +9,6 @@ end
 def run_guessing_game
   guess = gets.chomp
 
-  if guess == "exit"
-    exit_game
-    break
-  end
 question
 number = Random.rand(1..6)
 
@@ -24,10 +20,14 @@ else
     puts "You guessed the correct number!"
   elsif guess.to_i != number
     puts "The computer guessed #{number}."
+  elsif guess == "exit"
+    exit_game
   end
+end
 end
 end
 
 def exit_game
   puts "Goodbye"
+  break
 end
