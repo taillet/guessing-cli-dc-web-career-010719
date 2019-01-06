@@ -13,12 +13,10 @@ if guess == exit
   puts "Goodbye"
 end
 
-while guess != "exit"
     if guess == number
       puts "You guessed the correct number!"
     else
       puts "The computer guessed #{number}."
-    end
   end
 
 
