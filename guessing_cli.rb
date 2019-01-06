@@ -5,8 +5,7 @@ def question
 end
 
 def run_guessing_game
-  guess = gets.chomp
-
+guess = gets.chomp
 question
 guess = gets.chomp
 number = rand(6)
