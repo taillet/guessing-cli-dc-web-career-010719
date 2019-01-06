@@ -11,7 +11,6 @@ def run_guessing_game
     number = rand(1..6)
     if guess == "exit"
       exit_game
-      break
     elsif guess.to_i == number
       puts "You guessed the correct number!"
     elsif guess.to_i != number
