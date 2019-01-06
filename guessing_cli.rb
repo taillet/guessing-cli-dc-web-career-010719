@@ -18,7 +18,7 @@ while guess != exit
     puts "Guess a number between 1 and 6."
     guess = gets.chomp
 end
-if guess == "exit"
+  if guess == "exit"
     exit_game
   end
 end
