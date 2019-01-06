@@ -6,6 +6,12 @@ def question
   puts "Guess a number between 1 and 6."
 end
 
+def random 
+  rand(1..6)
+end
+
+  
+end
 def run_guessing_game
 guess = gets.chomp
 question
