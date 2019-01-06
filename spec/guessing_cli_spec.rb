@@ -5,7 +5,7 @@ describe "Guessing CLI" do
   context 'user inputs' do
     it "responds to 'exit'" do
       expect(self).to receive(:gets).and_return('exit')
-      expect { run_guessing_game }.to output(/Goodbye!/).to_stdout
+      expect { run_guessing_game }.to output(/Guess a number between 1 and 6.//Goodbye!/).to_stdout
     end
 
     it "responds to a correct guess" do
