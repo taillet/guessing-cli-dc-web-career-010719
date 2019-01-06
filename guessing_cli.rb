@@ -11,6 +11,7 @@ def run_guessing_game
 
   if guess == "exit"
     exit_game
+    break
   end
 question
 number = Random.rand(1..6)
