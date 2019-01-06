@@ -19,7 +19,7 @@ number = Random.rand(1...6)
     exit_game
   elsif (1..6).include?(guess) == false
     question
-    guess = gets.chomp 
+    guess = gets.chomp
   end
 end
 
