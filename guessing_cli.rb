@@ -4,8 +4,9 @@ def question
   puts "Guess a number between 1 and 6."
 end
 
-
 def run_guessing_game
+  guess = gets.chomp
+
 question
 guess = gets.chomp
 number = rand(6)
