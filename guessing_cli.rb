@@ -16,8 +16,6 @@ def run_guessing_game
       puts "You guessed the correct number!"
     elsif guess.to_i != number
       puts "The computer guessed #{number}."
-    else
-        "Try again."
     end
   end
 end
