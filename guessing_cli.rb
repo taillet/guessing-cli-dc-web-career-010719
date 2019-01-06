@@ -9,8 +9,8 @@ question
 guess = "exit"
 number = rand(1..6)
 
-  
-  elsif guess.to_i == number
+while guess != exit do 
+  if guess.to_i == number
       puts "You guessed the correct number!"
     elsif guess.to_i != number
       puts "The computer guessed #{number}."
