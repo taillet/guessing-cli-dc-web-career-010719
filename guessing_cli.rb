@@ -28,5 +28,4 @@ end
 
 def exit_game
   puts "Goodbye"
-  break
 end
