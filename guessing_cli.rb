@@ -6,7 +6,7 @@ end
 
 def run_guessing_game
 question
-guess = "exit"
+guess = gets.chomp
 number = rand(1..6)
 
 while guess != exit do
@@ -17,6 +17,8 @@ while guess != exit do
     else
       "Try again."
     end
+    number = rand(1..6)
+    guess = gets.chomp
 end
 
   if guess == "exit"
