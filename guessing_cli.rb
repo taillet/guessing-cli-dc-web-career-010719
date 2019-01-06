@@ -8,8 +8,9 @@ end
 
 def run_guessing_game
 question
-guess = gets.chomp
 number = Random.rand(1..6)
+guess = gets.chomp
+
 
   if guess.to_i == number
     puts "You guessed the correct number!"
