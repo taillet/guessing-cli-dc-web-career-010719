@@ -5,14 +5,11 @@ def question
 end
 
 def run_guessing_game
-
-  loop do
 question
 guess = "exit"
 number = rand(1..6)
-  if guess == "exit"
-    exit_game
-    break
+
+  
   elsif guess.to_i == number
       puts "You guessed the correct number!"
     elsif guess.to_i != number
@@ -20,6 +17,10 @@ number = rand(1..6)
     else
       "Try again."
     end
+  end
+
+  if guess == "exit"
+    exit_game
   end
 end
 
