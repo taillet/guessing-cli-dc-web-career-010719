@@ -5,8 +5,8 @@ def question
 end
 
 def run_guessing_game
+  question
   loop do
-    question
     guess = gets.chomp
     number = rand(1..6)
     if guess == "exit"
