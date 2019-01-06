@@ -9,7 +9,7 @@ question
 guess = "exit"
 number = rand(1..6)
 
-while guess != exit do 
+while guess != exit do
   if guess.to_i == number
       puts "You guessed the correct number!"
     elsif guess.to_i != number
@@ -17,7 +17,7 @@ while guess != exit do
     else
       "Try again."
     end
-  end
+end
 
   if guess == "exit"
     exit_game
