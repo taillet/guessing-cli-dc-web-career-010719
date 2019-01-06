@@ -10,8 +10,6 @@ def run_guessing_game
 question
 number = Random.rand(1..6)
 guess = gets.chomp
-
-
   if guess.to_i == number
     puts "You guessed the correct number!"
   elsif guess.to_i != number
