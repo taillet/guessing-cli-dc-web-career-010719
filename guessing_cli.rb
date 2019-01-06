@@ -8,6 +8,8 @@ puts "Guess a number between 1 and 6."
 guess = gets.chomp
 number = Random.rand(1...6)
 
-
+if guess == exit
+  puts "Goodbye"
+end
 
 end
