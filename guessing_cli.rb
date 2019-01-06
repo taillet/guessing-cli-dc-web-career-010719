@@ -1,5 +1,5 @@
 # Code your solution here!
-
+require 'pry'
 def question
   puts "Guess a number between 1 and 6."
 end
