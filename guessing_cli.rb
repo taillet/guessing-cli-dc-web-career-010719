@@ -14,11 +14,11 @@ while guess != exit
       puts "The computer guessed #{number}."
     elsif (1...6).include?(guess) == false
       puts "Guess a number between 1 and 6."
-      guess = gets.chomp
-    elsif guess == "exit"
-      puts "Goodbye"
-      break
     end
+    puts "Guess a number between 1 and 6."
+    guess = gets.chomp
 end
-
+if guess == "exit"
+    exit_jukebox
+  end
 end
