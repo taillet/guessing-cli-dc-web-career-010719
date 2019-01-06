@@ -19,6 +19,6 @@ while guess != exit
     guess = gets.chomp
 end
 if guess == "exit"
-    exit_jukebox
+    game
   end
 end
