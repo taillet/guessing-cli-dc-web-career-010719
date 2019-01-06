@@ -21,7 +21,7 @@ else
     puts "The computer guessed #{number}."
   elsif guess == "exit"
     exit_game
-end
+  end
 end
 
 def exit_game
