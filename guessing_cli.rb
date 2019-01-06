@@ -7,7 +7,7 @@ end
 def run_guessing_game
 question
 guess = gets.chomp
-number = rand(6)
+number = rand(1..6)
 
   if guess != "exit" and (1..6).include?(guess.to_i) == false
     question
