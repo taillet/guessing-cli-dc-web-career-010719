@@ -10,7 +10,6 @@ end
 
 end
 def run_guessing_game
-guess = gets.chomp
 question
 guess = gets.chomp
 number = rand(6)
