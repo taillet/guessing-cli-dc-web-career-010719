@@ -5,6 +5,7 @@ def question
 end
 
 def run_guessing_game
+  guess = gets.chomp
   question
   loop do
     guess = gets.chomp
