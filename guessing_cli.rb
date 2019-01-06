@@ -16,10 +16,6 @@ guess = gets.chomp
     puts "The computer guessed #{number}."
   elsif guess == "exit"
     exit_game
-  elsif (1..6).include?(guess) == false
-    question
-    guess = gets.chomp
-  end
 end
 
 def exit_game
