@@ -15,11 +15,11 @@ number = Random.rand(1...6)
     puts "You guessed the correct number!"
   elsif guess.to_i != number
     puts "The computer guessed #{number}."
-  elsif (1...6).include?(guess) == false
-    question
-    guess = gets.chomp
   elsif guess == "exit"
     exit_game
+  elsif (1...6).include?(guess) == false 
+    question
+    guess = gets.chomp 
   end
 end
 
