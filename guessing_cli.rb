@@ -11,7 +11,7 @@ question
 number = Random.rand(1..6)
 guess = gets.chomp
 
-if (1..6).include?(guess.to_i) == false
+if guess != "exit" and (1..6).include?(guess.to_i) == false
   question
   guess = gets.chomp
 else
