@@ -2,9 +2,12 @@
 
 
 
-def run_guessing_game
+def question
+  puts "Guess a number between 1 and 6."
+end
 
-puts "Guess a number between 1 and 6."
+def run_guessing_game
+question
 guess = gets.chomp
 while guess != "exit"
   number = Random.rand(1...6)
@@ -13,9 +16,9 @@ while guess != "exit"
     elsif guess.to_i != number
       puts "The computer guessed #{number}."
     elsif (1...6).include?(guess) == false
-      puts "Guess a number between 1 and 6."
+      question
     end
-    puts "Guess a number between 1 and 6."
+    question
     guess = gets.chomp
 end
   if guess == "exit"
