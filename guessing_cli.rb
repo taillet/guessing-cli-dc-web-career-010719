@@ -10,7 +10,7 @@ number = Random.rand(1...6)
 
     if guess == number
       puts "You guessed the correct number!"
-    elsif 
+    elsif
       puts "The computer guessed #{number}."
     elsif guess == "exit"
       puts "Goodbye"
