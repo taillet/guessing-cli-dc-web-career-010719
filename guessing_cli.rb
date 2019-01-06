@@ -23,6 +23,7 @@ else
     exit_game
   end
 end
+end
 
 def exit_game
   puts "Goodbye"
