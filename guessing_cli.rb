@@ -19,6 +19,6 @@ while guess != exit
     guess = gets.chomp
 end
 if guess == "exit"
-    game
+    exit_game
   end
 end
