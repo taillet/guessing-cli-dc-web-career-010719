@@ -22,3 +22,7 @@ if guess == "exit"
     exit_game
   end
 end
+
+def exit_game
+  puts "Goodbye"
+end
